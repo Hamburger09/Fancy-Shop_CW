@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fancy Shop</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/fancy-shop.png"
+      type="image/x-icon"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="overlay" id="page-overlay"></div>
+      <aside class="sidebar">
+        <ul class="sidebar-top-container">
+          <li>
+            <h1 class="sidebar-top-title text-gray">Menu</h1>
+          </li>
+          <li>
+            <div class="sidebar-top-close">
+              <img class="img-fluid" src="/assets/close.svg" alt="close logo" />
+            </div>
+          </li>
+        </ul>
+        <div class="nav-input">
+          <img src="/assets/search.svg" alt="search logo" />
+          <input type="text" placeholder="search" />
+        </div>
+        <div class="text-gray">
+          <a href="#reviews"> Reviews </a>
+        </div>
+        <div class="text-gray">
+          <a href="table.html"> Profits </a>
+        </div>
+        <ul class="accordion">
+          <li class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h3>Male group</h3>
+              <div class="accordion-arrow">
+                <img src="/assets/accordion-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="accordion-content">
+              <ul>
+                <li>ATEEZ</li>
+                <li>BOYNEXTDOOR</li>
+                <li>BTS</li>
+                <li>ENHYPEN</li>
+                <li>EXO</li>
+                <li>GOT7</li>
+                <li>Monsta X</li>
+                <li>NCT</li>
+                <li>P1Harmony</li>
+                <li>RIIZE</li>
+                <li>SEVENTEEN</li>
+                <li>Shinee</li>
+                <li>STRAY KIDS</li>
+                <li>The Boys</li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h3>Female group</h3>
+              <div class="accordion-arrow">
+                <img src="/assets/accordion-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="accordion-content">
+              <ul>
+                <li>aespa</li>
+                <li>BLACKPINK</li>
+                <li>DRAEMCATCHER</li>
+                <li>EVERGLOW</li>
+                <li>(G) I-DLE</li>
+                <li>IVE</li>
+                <li>ITZY</li>
+                <li>Kep1er</li>
+                <li>KISS OF LIFE</li>
+                <li>LE SSERAFIM</li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h3>Solo artists</h3>
+              <div class="accordion-arrow">
+                <img src="/assets/accordion-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="accordion-content">
+              <ul>
+                <li>aespa</li>
+                <li>BLACKPINK</li>
+                <li>DRAEMCATCHER</li>
+                <li>EVERGLOW</li>
+                <li>(G) I-DLE</li>
+                <li>IVE</li>
+                <li>ITZY</li>
+                <li>Kep1er</li>
+                <li>KISS OF LIFE</li>
+                <li>LE SSERAFIM</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="under-nav under-nav-sidebar">
+          <div class="under-nav-container">
+            <div class="under-nav-address">
+              <p>
+                <strong> Address: </strong> Mirzo-Ulugbek district, Parkent
+                street, house 229.
+              </p>
+            </div>
+            <div class="under-nav-address">
+              <p><strong> LANDMARK: Parkinsky market</strong></p>
+            </div>
+            <div class="under-nav-address">
+              <p><strong> Change language </strong></p>
+            </div>
+
+            <ul class="under-nav-lang-pills">
+              <li class="under-nav-lang-pill">
+                <a href="#">Rus</a>
+              </li>
+              <li class="under-nav-lang-pill active-lang-pill">
+                <a href="#">Eng</a>
+              </li>
+              <li class="under-nav-lang-pill">
+                <a href="#">Uzb</a>
+              </li>
+            </ul>
+            <div class="under-nav-address">
+              <p><strong> Our social networks</strong></p>
+            </div>
+            <ul class="under-nav-socials">
+              <li>
+                <a href="https://www.instagram.com/dead_shod/" target="_blank">
+                  <img src="/assets/instagram-logo.svg" alt="instagram logo" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/assets/facebook-logo.svg" alt="facebook logo" />
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/ADcuber" target="_blank">
+                  <img src="/assets/telegram-logo.svg" alt="telegram logo" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer>
+          <p>
+            &copy; <span>2024 Fancy Shop.</span> This website was created to
+            fulfill Web Technology module’s requirements and does not represent
+            an actual company or service
+          </p>
+        </footer>
+      </aside>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              <img src="assets/fancy-shop-logo.svg" alt="fancy shop logo" />
+            </a>
+          </li>
+          <li class="text-gray nav-link">
+            <a href="#reviews"> Reviews </a>
+          </li>
+          <li class="text-gray nav-link">
+            <a href="table.html"> Profits </a>
+          </li>
+        </ul>
+        <ul class="nav-small-inputs">
+          <li>
+            <div class="nav-small-cart">
+              <a href="/cart.html">
+                <img src="/assets/shopping-small-cart.svg" alt="purple cart" />
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="nav-menu-bar">
+              <img src="/assets/nav-hamburger.svg" alt="navbar menu bar" />
+            </div>
+          </li>
+        </ul>
+        <ul class="nav-inputs">
+          <li>
+            <div class="nav-input">
+              <img src="/assets/search.svg" alt="search logo" />
+              <input type="text" placeholder="search" />
+            </div>
+          </li>
+          <li>
+            <div class="nav-cart">
+              <span class="nav-cart-notification">2</span>
+              <a href="/cart.html">
+                <img src="/assets/shopping-cart.svg" alt="shopping-cart" />
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="under-nav-input">
+        <img src="/assets/search.svg" alt="search logo" />
+        <input type="text" placeholder="search" />
+      </div>
+
+      <div class="under-nav under-nav-main">
+        <div class="under-nav-container">
+          <div class="under-nav-address">
+            <p>Address: Mirzo-Ulugbek district, Parkent street, house 229.</p>
+          </div>
+          <ul class="under-nav-lang-pills">
+            <li class="under-nav-lang-pill">
+              <a href="#">Rus</a>
+            </li>
+            <li class="under-nav-lang-pill active-lang-pill">
+              <a href="#">Eng</a>
+            </li>
+            <li class="under-nav-lang-pill">
+              <a href="#">Uzb</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="container">
+      <div class="section-title">
+        <h1>Error</h1>
+      </div>
+      <div class="section-content">
+        <figure class="page-not-found">
+          <img src="./assets/404.png" alt="404" class="img-fluid" />
+          <figcaption>
+            <h3>Page not found</h3>
+            <p>Sorry, the page you are looking for could not be found.</p>
+            <div class="page-not-found-return-home">
+              <a href="/index.html">Home</a>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-title">
+        <h1>you might also like</h1>
+      </div>
+      <div>
+        <ul class="cards-container">
+          <li class="card">
+            <figure>
+              <div class="card-pill card-pill--blue">pre-order</div>
+              <img
+                src="./assets/star-card-image.png"
+                alt="kpop image"
+                class="img-fluid"
+              />
+              <figcaption class="card-info">
+                <h3>Album The Rose - DUAL (Jewel Case Album)</h3>
+                <p class="price">
+                  from <span class="price-number">3000</span> uzs
+                </p>
+                <div class="card-buttons">
+                  <div class="card-button">
+                    <a href="./product.html"> more </a>
+                  </div>
+                  <div class="card-button-icon">
+                    <a href="./cart.html">
+                      <img src="/assets/card-shopping-cart.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <div class="card-pill card-pill--green">in-stock</div>
+
+              <img
+                src="./assets/x-card-image.png"
+                alt="kpop image"
+                class="img-fluid"
+              />
+              <figcaption class="card-info">
+                <h3>Album The Rose - DUAL (Jewel Case Album)</h3>
+                <p class="price">
+                  from <span class="price-number">3000</span> uzs
+                </p>
+                <div class="card-buttons">
+                  <div class="card-button">
+                    <a href="/order.html"> buy now </a>
+                  </div>
+                  <div class="card-button-icon">
+                    <a href="./cart.html">
+                      <img src="/assets/card-shopping-cart.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <div class="card-pill card-pill--green">in-stock</div>
+
+              <img
+                src="./assets/seventeen-card-image.png"
+                alt="kpop image"
+                class="img-fluid"
+              />
+              <figcaption class="card-info">
+                <h3>Album The Rose - DUAL (Jewel Case Album)</h3>
+                <p class="price">
+                  from <span class="price-number">3000</span> uzs
+                </p>
+                <div class="card-buttons">
+                  <div class="card-button">
+                    <a href="order.html"> buy now </a>
+                  </div>
+                  <div class="card-button-icon">
+                    <a href="./cart.html">
+                      <img src="/assets/card-shopping-cart.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <div class="card-pill card-pill--green">in-stock</div>
+
+              <img
+                src="./assets/bts-card-image.png"
+                alt="kpop image"
+                class="img-fluid"
+              />
+
+              <figcaption class="card-info">
+                <h3>Album The Rose - DUAL (Jewel Case Album)</h3>
+                <p class="price">
+                  from <span class="price-number">3000</span> uzs
+                </p>
+                <div class="card-buttons">
+                  <div class="card-button">
+                    <a href="order.html"> buy now </a>
+                  </div>
+                  <div class="card-button-icon">
+                    <a href="./cart.html">
+                      <img src="/assets/card-shopping-cart.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <div class="card-pill card-pill--green">in-stock</div>
+
+              <img
+                src="./assets/bts-card-image.png"
+                alt="kpop image"
+                class="img-fluid"
+              />
+
+              <figcaption class="card-info">
+                <h3>Album The Rose - DUAL (Jewel Case Album)</h3>
+                <p class="price">
+                  from <span class="price-number">3000</span> uzs
+                </p>
+                <div class="card-buttons">
+                  <div class="card-button">
+                    <a href="order.html"> buy now </a>
+                  </div>
+                  <div class="card-button-icon">
+                    <a href="./cart.html">
+                      <img src="/assets/card-shopping-cart.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container">
+      <footer>
+        <div class="footer-top">
+          <ul class="footer-top-container">
+            <li class="footer-top-item">
+              <div>
+                <a href="index.html">
+                  <img src="assets/fancy-shop-logo.svg" alt="fancy shop logo" />
+                </a>
+              </div>
+              <div>
+                <ul class="footer-top-links">
+                  <li class="footer-top-link">
+                    <a href="#reviews"> Reviews </a>
+                  </li>
+                  <li class="footer-top-link">Contact us</li>
+                </ul>
+              </div>
+            </li>
+            <li class="footer-top-item">
+              <ul class="footer-top-links">
+                <li class="footer-top-link">We are on social networks</li>
+                <li class="footer-top-link">
+                  <ul class="under-nav-socials">
+                    <li>
+                      <a
+                        href="https://www.instagram.com/dead_shod/"
+                        target="_blank"
+                      >
+                        <img
+                          src="/assets/instagram-logo.svg"
+                          alt="instagram logo"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img
+                          src="/assets/facebook-logo.svg"
+                          alt="facebook logo"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://t.me/ADcuber" target="_blank">
+                        <img
+                          src="/assets/telegram-logo.svg"
+                          alt="telegram logo"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span>2024 Fancy Shop.</span> This website was created to
+            fulfill Web Technology module’s requirements and does not represent
+            an actual company or service
+          </p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

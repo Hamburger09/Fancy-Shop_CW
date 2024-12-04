@@ -1,0 +1,13 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon / shopping-cart" clip-path="url(#clip0_2817_4765)">
+<path id="Vector" d="M3.99984 14.0002C4.73622 14.0002 5.33317 13.4032 5.33317 12.6668C5.33317 11.9304 4.73622 11.3335 3.99984 11.3335C3.26346 11.3335 2.6665 11.9304 2.6665 12.6668C2.6665 13.4032 3.26346 14.0002 3.99984 14.0002Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M11.3333 14.0002C12.0697 14.0002 12.6667 13.4032 12.6667 12.6668C12.6667 11.9304 12.0697 11.3335 11.3333 11.3335C10.597 11.3335 10 11.9304 10 12.6668C10 13.4032 10.597 14.0002 11.3333 14.0002Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.3332 11.3333H3.99984V2H2.6665" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M4 3.3335L13.3333 4.00016L12.6667 8.66683H4" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2817_4765">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
